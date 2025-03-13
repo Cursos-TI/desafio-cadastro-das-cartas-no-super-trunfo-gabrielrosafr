@@ -8,6 +8,43 @@
 
 int main() {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
+        char estado;
+        char codigo[10];
+        char cidade[20];
+        int populacao;
+        float area_cidade;
+        float pib;
+        int qtd_pontos_turisticos;
+
+
+        printf("Por favor, informe o estado da sua primeira carta: \n"); //Printando primeiramente o texto da pergunta
+        scanf("%c", &estado); //Recebendo o valor/resposta da pergunta
+        
+        printf("Agora informe o código da sua primeira carta: \n");
+        scanf("%s", &codigo);
+
+        printf("Digite a cidade da sua primeira carta: \n");
+        scanf("%s", &cidade);
+
+        printf("Informe a área (em km2) da cidade da sua primeira carta.\n\n Obs: digite apenas o números.");
+        scanf("%f", &area_cidade);
+
+        printf("Agora informe o PIB da cidade da sua primeira carta: \n");
+        scanf("%f", &pib);
+
+        printf("Por último, informe a quantidade de pontos turísticos da cidade da sua primeira carta: \n");
+        scanf("%i", &qtd_pontos_turisticos);
+
+        printf("Obrigado pelas informações, agora vamos para a segunda carta.\n\n Por favor, informe o estado da sua segunda carta: \n");
+        
+
+
+
+
+
+
+
+
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
     // Cadastro das Cartas:
