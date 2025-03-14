@@ -4,7 +4,7 @@ int main() {
 
     //primeira carta
         char estado;
-        char codigo[10];
+        char codigo[20];
         char cidade[20];
         int populacao;
         float area_cidade;
@@ -12,7 +12,7 @@ int main() {
         int qtd_pontos_turisticos;
     //segunda carta
         char estado2;
-        char codigo2[10];
+        char codigo2[20];
         char cidade2[20];
         int populacao2;
         float area_cidade2;
@@ -25,7 +25,7 @@ int main() {
         scanf("%c", &estado); //Recebendo o valor/resposta da pergunta
         
         printf("Agora informe o código da sua primeira carta: \n");
-        scanf("%s", &codigo);
+        scanf(" %s", &codigo);
 
         printf("Digite a cidade da sua primeira carta: \n");
         scanf("%s", &cidade);
@@ -34,7 +34,7 @@ int main() {
         scanf("%i", &populacao);
 
 
-        printf("Informe a área (em km2) da cidade da sua primeira carta.\n\n Obs: digite apenas o números.");
+        printf("Informe a área (em km2) da cidade da sua primeira carta:\n");
         scanf("%f", &area_cidade);
 
         printf("Agora informe o PIB da cidade da sua primeira carta: \n");
@@ -45,7 +45,7 @@ int main() {
 
         //pergunta informações da segunda carta
 
-        printf("Obrigado pelas informações, agora vamos para a segunda carta.\n\n Por favor, informe o estado da sua segunda carta: \n");
+        printf("Obrigado pelas informações, agora vamos para a segunda carta.\n\nPor favor, informe o estado da sua segunda carta: \n");
         scanf("%c", &estado2);
 
         printf("Agora informe o código da sua segunda carta: \n");
@@ -57,7 +57,7 @@ int main() {
         printf("Informe o número de habitantes da cidade da sua segunda carta.\n");
         scanf("%i", &populacao2);
 
-        printf("Informe a área (em km2) da cidade da sua segunda carta.\n\n Obs: digite apenas o números.");
+        printf("Informe a área (em km2) da cidade da sua segunda carta:\n");
         scanf("%f", &area_cidade2);
 
         printf("Agora informe o PIB da cidade da sua segunda carta: \n");
