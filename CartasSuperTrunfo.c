@@ -30,7 +30,7 @@ int main() {
         printf("Digite a cidade da sua primeira carta: \n");
         scanf("%s", &cidade);
 
-        printf("Informe o número de habitantes da cidade da sua primeira carta.\n");
+        printf("Informe o número de habitantes da cidade da sua primeira carta:\n");
         scanf("%i", &populacao);
 
 
@@ -45,7 +45,7 @@ int main() {
 
         //pergunta informações da segunda carta
 
-        printf("Obrigado pelas informações, agora vamos para a segunda carta.\n\nPor favor, informe o estado da sua segunda carta: \n");
+        printf("Obrigado pelas informações, agora vamos para o cadastro da segunda carta. Primeiramente, informe o estado da sua segunda carta: \n");
         scanf("%c", &estado2);
 
         printf("Agora informe o código da sua segunda carta: \n");
@@ -54,7 +54,7 @@ int main() {
         printf("Digite a cidade da sua segunda carta: \n");
         scanf("%s", &cidade2);
 
-        printf("Informe o número de habitantes da cidade da sua segunda carta.\n");
+        printf("Informe o número de habitantes da cidade da sua segunda carta:\n");
         scanf("%i", &populacao2);
 
         printf("Informe a área (em km2) da cidade da sua segunda carta:\n");
