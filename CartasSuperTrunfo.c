@@ -96,7 +96,7 @@ int main() {
     // calcula supoerpoder de cada carta B
         float superpoderB = (float)populacao2 + (float)area_cidade2 + (float)pib2 + (float)qtd_pontos_turisticos2 + (float)densPopInvertida2 + (float)pib_per_capita2;
 
-
+    // armazena o resultado em variáveis
         int resultadoPopulacao, resultadoAreaCidade, resultadoPib, resultadoQtdPontosTuristicos, resultadoDensidadePopulacional, resultadoPibPerCapita, resultadoSuperPoder;
 
         resultadoPopulacao = populacao > populacao2;
@@ -108,6 +108,8 @@ int main() {
         resultadoSuperPoder = superpoderA > superpoderB;
 
 
+        //imprime as informações das cartas e o resultado das comparaçōes
+        
         printf("Obrigado pelas informações, aqui estão as informações das cartas cadastradas: \n\n");
         printf("\n");
        
